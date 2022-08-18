@@ -57,9 +57,10 @@ img {
     color: white;
 }
 
-.tabs-content {
+
+/* .tabs-content {
     padding: 2rem 1.5rem;
-}
+} */
 
 @media (min-width: 600px) {
     .image {
@@ -73,6 +74,7 @@ img {
 }
 
 .content {
+    padding: 2rem;
     display: none;
 }
 
