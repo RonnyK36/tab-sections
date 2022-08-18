@@ -20,7 +20,7 @@ img {
     margin: 0 auto;
     max-width: 1170px;
     min-width: 340px;
-    padding: 5rem;
+    padding: 5rem 0;
 }
 
 .tabs {
@@ -52,7 +52,7 @@ img {
     border-top-right-radius: 0.5rem;
 }
 
-.button:hover {
+.button:hover:not(.live) {
     background-color: #002b5b;
     color: white;
 }
@@ -70,4 +70,16 @@ img {
         grid-template-columns: 1fr 1fr;
         column-gap: 2rem;
     }
+}
+
+.content {
+    display: none;
+}
+
+.content.live {
+    display: block;
+}
+
+.button.live {
+    background-color: #256d85;
 }
